@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-10-28 16:54:39
- * @LastEditTime: 2020-10-28 18:07:37
+ * @LastEditTime: 2020-10-29 11:55:22
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \temperature-control\src\App.js
@@ -11,6 +11,7 @@ import React, { useState } from "react";
 const App = () => {
   const [temperatureValue, setTemperatureValue] = useState(15);
   const [temperatureColor, setTemperatureColor] = useState("hot");
+  //const yes= 12;
   const increaseTemperature = () => {
     const newTemperature = temperatureValue + 1;
     setTemperatureValue(newTemperature);
@@ -44,3 +45,5 @@ const App = () => {
 };
 
 export default App;
+
+/*dffdgfd*/
